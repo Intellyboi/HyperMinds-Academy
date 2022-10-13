@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HyperMinds</title>
+    <link rel="icon" href="favicon-32x32.png">
+    <meta charset="UTF-8"> 
+    <style>
+      .wholepg{
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-left:0px;
+        margin-right:0px;
+      }
+      .mh{
+        display:block;
+        position: fixed;
+        background-color: rgb(14, 14, 48);
+        z-index: 2;      
+      }
+      .leftsec{
+        display:inline-block;
+        margin-right: 100px;
+        border-width:0px;
+        margin-left: 68px;      
+      }
+      .LOG{
+        animation:Logo 10s infinite; 
+        border-radius:20px;
+      }
+      @keyframes Logo{
+        0%{transform:rotate(0deg)}
+        100%{transform:rotate(360deg)}
+      }
+      .midsec{
+        display:inline-flex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:40px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 180px;
+        margin-left: 125px;
+        color:whitesmoke;
+        vertical-align: top;        
+       }
+       .rightsec{
+        display:inline-block;
+        vertical-align: top;
+        margin-top: 30px;
+       }
+       .tb{
+          height:60px;
+          width:60px;
+          margin-right:40px;
+          margin-left:40px;
+          background-color:white;
+          border-radius:30px;
+          animation:button 2s infinite;
+          border-style:solid ;
+          border-width:2px;
+          border-color: rgb(125, 198, 230);
+       }
+       @keyframes button{
+        0%{transform:rotate(0deg)}
+        10%{transform:rotate(20deg)}
+        20%{transform:rotate(0deg)}
+        30%{transform:rotate(20deg)}
+        40%{transform:rotate(0deg)}
+        50%{transform:rotate(20deg)}
+        60%{transform:rotate(0deg)}
+        70%{transform:rotate(20deg)}
+        80%{transform:rotate(0deg)}
+        90%{transform:rotate(20deg)}
+        100%{transform:rotate(0deg)}
+       }
+       .tb:hover{
+        cursor:pointer;
+       }
+       .secondbar{
+        display:inline-block;
+        margin-top:150px;
+        margin-left:60px;
+       }
+       .Textframe{
+        display:inline-block;
+        width:460px;
+        vertical-align: top;
+        font-family:cursive;
+        font-size: 20px;
+       }
+      .mv{
+       object-position: right;
+        display:inline-block;
+      }
+      .mainvid{
+        height:400px;
+        width:700px;
+        border: none;
+        border-radius: 30px;
+        margin-left:30px;
+      }
+      .att{
+        font-family:cursive;
+        margin-left:10px;
+        display:inline-block;
+        width:700px;
+        vertical-align:top;
+        font-size: 15px;
+        margin-left:30px;
+        text-align: justify;        
+      }
+      .thirdbar{
+        display:inline-block;
+        margin-left: 68px;
+      }
+      .ti{
+        display:inline-block;
+        height:400px;
+        width:400px;
+        object-fit: contain;        
+      }
+      .sb{
+        height:54px;
+        width:50px;
+        margin-top:10px;
+        margin-bottom:10px;
+        align-items: center;
+        cursor:pointer;
+        margin-left:8px;
+        background-color: rgb(72, 181, 227);
+        border-style:solid;
+        border-width:2px;
+        border-color:white;
+        font-family: sans-serif;
+        color:white;
+        font-weight:700;
+        border-radius:20px;
+      }
+      .sb:hover{
+        animation:sbb 2s infinite;
+      }
+      @keyframes sbb{
+        0%{box-shadow:0 0 0 0px rgba(125, 198, 230, 0.7);}
+        50%{box-shadow:0 0 0 15px rgba(125, 198, 230, 0.7);}
+        100%{box-shadow:0 0 0 0px rgba(125, 198, 230, 0.7);}
+      }
+      .fourthbar{
+        margin-left:70px;
+        font-family: cursive;
+        margin-top:40px;
+        font-size:25px;
+      }
+      .box{
+        width:700px;
+        background-color:rgb(252, 199, 207);
+        color:white;
+        text-align:center;
+        height:400px;
+        font-size:25px;
+        border-radius: 30px;
+        border-width:0px;  
+        margin-left:250px;           
+      }
+      .box:hover{
+        box-shadow: inset 10px 10px 10px
+        rgba(97, 93, 93,0.5);   
+        cursor:pointer; 
+      }
+      .box:active{
+        box-shadow: inset 0px 0px 10px lightpink;   
+        cursor:pointer; 
+        background-color:rgb(250, 193, 201);
+      }
+      .Heading{
+        animation:H 3s infinite; 
+           
+      }
+      @keyframes H{
+      0%{color:white;}
+      33%{color:rgb(240, 174, 226);}
+      66%{color:rgb(243, 148, 223);}
+      100%{color:white;}
+      }
+      .wefocuson{
+        animation:wef 3s infinite;
+      }
+      @keyframes wef{
+        0%{left:0px;transform:rotate(0deg);}
+        25%{left:25px;transform:rotate(22deg);}
+        50%{left:50x;transform:rotate(0deg);}
+        75%{left:75px;transform:rotate(-22deg);}
+        100%{left:100x;transform:rotate(0deg);}
+      }
+      .Foot{
+        width:1212px;
+        height:400px;
+        background-color: rgb(14, 14, 48);
+        margin-left:50px;
+        margin-top:40px;
+      }
+    </style>
+  </head>
+  <body class="wholepg">     
+      <div class="mh">
+        <div class="leftsec">
+        <img class="LOG" height=120px width=120px margin-left=68px object-fit=contain src="LOGOO.jpg"/>
+        </div>
+        <div class="midsec">
+        <p><strong><span class="Heading">HyperMinds Academy</span></strong></p>
+        </div>
+        <div class="rightsec">
+         <a href=#end><button class="tb">          
+          <img height=40px width=30px src="cont.jpg"/></button>
+          <button class="tb">
+          <img  height=40px width=36px src="mail.jpg"/></button>
+        </a>
+        </div>
+      </div>
+      <div class="secondbar">
+      <div class="Textframe">
+      <pre class="wefocuson"style=
+      "font-family:cursive ;
+      font-size:30px;
+      margin-left:0px;
+      ">
+      <strong>    WE FOCUS ON</strong></pre>
+      <ul>
+      <li> Teaching the fundamentals in Mathematics, Physics and Chemistry through core concepts</li><br>
+        
+      <li> Removing the fear in subjects and attaining confidence through discipline, spiritual knowledge</li><br>
+        
+      <li> Delivering a maximum, long-term benefit to individual student by untapping their enormous inbuilt potential</li><br>
+      </ul>
+      </div>
+      <div class="mv">
+      <video controls autoplay muted class="mainvid">
+      <source src="Mytutvid.mp4"/>
+      </video>  
+      </div>
+      </div>
+      <div style="
+      bottom:0px;
+      top:125px;
+      left:0px;
+      width:68px;
+      position:fixed;
+      background-color: rgb(14, 14, 48);
+      z-index: 1;
+      ">
+      <a href=#four><button class="sb"><p>Home</p></button>
+      <button class="sb"><p>9th Std</p></button>
+      <button class="sb"><p>10th Std</p</button>
+      <button class="sb"><p>11th Std</p</button>
+      <button class="sb"><p>12th Std</p></button>
+      <button class="sb"><p>JEE Mains</p></button>
+      <button class="sb"><p>NEET</p></button></a>
+      </div>
+      <div class="thirdbar">
+        <div style="
+        display:inline-block;
+        ">
+        <img class="ti" src="me5.jpg"/>
+        </div>
+        <div class="att">
+        <p font-size=20px font-family=cursive>
+          <strong>ABOUT THE TUTOR:</strong>
+        </p>
+        <p style="
+        font-size:20px;
+        
+        ">
+          <strong>S.ASHWANTH</strong><br>   
+          Anna University, (Electronics & Instrumentation Engineering)
+      </p>
+      <p padding-left=10px>
+        Being a tutor of sciences for more than 2 decades.<br>
+        Mr. S.ASHWANTH has helped thousands of students understand the concepts of Mathematics. As an eminent tutor for Mathematics, he has facilitated multiple centum over 20 academic sessions leading to be fondly called as Centum Ashwanth.
+        His ardent devotion towards the field of Mathematics has to lead to his experimental fashion of teaching that focusses on imparting the core concepts of the subject for the maximum and long term benefit of the student. The dedication to his profession combined with his deep knowledge has given rise to this Institution graduating thousands of students.
+       </p>
+       <p font-size=20px><strong> “Only education, self-respect and religious qualities will uplift the down-trodden.”</strong>
+      </p>
+      </div>
+      </div>
+      <section id="four">
+      <div class="fourthbar">
+         <p><strong>As First Step Towards Perfecting Your Minds, Kindly Fill The Application Form:</strong></p>
+         <button class="box"><p><strong>APPLICATION FOR ENROLLMENT<br> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmCRbGDhLv2TNb95ImN44UiA7kZqDCtLS00WaSDTgEScHqJw/viewform?embedded=true" style=" width:596px; margin-top:20px;margin-left:10px; height:300px; border-style:none;">Loading…</iframe></strong></p></button>        
+      </div>
+    </section>
+    <section id="end">
+      <div class="Foot" style="display:flex;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9581.985936776851!2d80.20257791086837!3d13.051271513937182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266c3af68c22d%3A0xb039199ab02199d6!2sDoshi%20Gardens!5e0!3m2!1sen!2sin!4v1665643004255!5m2!1sen!2sin" style=" border-radius:30px; border-style:none; width:500px; height:350px; margin-top:30px; margin-left:90px; text-align: left;" allowfullscreen></iframe>
+      <div style="width:500px; margin-left:40px; "><p style="font-family:sans-serif; font-weight:700; text-align:justify; font-size:20px; margin-top:70px; color:white; display:inline-block;"><span style="font-size:20px; color:lightpink">ADDRESS:  </span>    3rd floor, Opp. to Bus Depot, 174, Arcot Road, Vadapalani, Chennai, Tamil Nadu, 600026</p>
+        <p style="font-family:sans-serif; font-weight:700; text-align:justify; font-size:20px; margin-top:70px; color:white; display:inline-block;"><span style="font-size:20px; color:lightpink">CONTACT US:  </span>    +91 73582 43533</p>
+        <p style="font-family:sans-serif; font-weight:700; text-align:justify; font-size:20px; margin-top:70px; color:white; display:inline-block;"><span style="font-size:20px; color:lightpink">MAIL US:  </span>    ashumarvel04@gmail.com</p>
+      </div>
+      </div>
+    </section>
+
+
+
+      
+  </body>
+</html>
